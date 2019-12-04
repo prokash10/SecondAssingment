@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.SumFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:textSize="30dp"
+        android:id="@+id/etfirst"
+        android:layout_margin="20dp"
+        android:inputType="number"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Second Number"
+        android:textSize="30dp"
+        android:id="@+id/etsecond"
+        android:layout_margin="20dp"
+        android:inputType="number"
+        ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sum"
+        android:textSize="30dp"
+        android:id="@+id/btnsum"
+        android:layout_margin="20dp"
+        ></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:id="@+id/tvoutputsum"></TextView>
+
+</LinearLayout>

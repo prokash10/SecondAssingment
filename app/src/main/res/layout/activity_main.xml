@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="3"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/btnS"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Sum"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btnA"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Area"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btnRN"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Reverse No"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btnP"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Palindrome"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btnAuto"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="AutoM"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnRS"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Reverse S"
+            android:textSize="20dp"/>
+    </GridLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/fragmentC"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+</LinearLayout>
